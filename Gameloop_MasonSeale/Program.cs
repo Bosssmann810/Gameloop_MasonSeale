@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net;
+using System.Security.Permissions;
 using System.Threading;
 
 namespace GameLoopExample
@@ -12,7 +13,7 @@ namespace GameLoopExample
         // keep track of user's WASD input
         static int horizontalInput = 0;
         static int verticalInput = 0;
-
+        static int sharkintervle = 0;
         // gamestate
         static int verticalPos = 0;
         static int horizontalPos = 0;
@@ -60,12 +61,33 @@ namespace GameLoopExample
         static void Update()
         {
             verticalPos += verticalInput;
+            if(verticalPos == -1)
+            {
+                verticalPos = 0;
+            }
+            if (verticalPos == 11)
+            {
+                verticalPos = 10;
+            }
             horizontalPos += horizontalInput;
-            sharmovement();
+            if (horizontalPos == -1)
+            {
+                horizontalPos = 0;
+            }
+            if(horizontalPos == 20)
+            {
+                horizontalPos = 19;
+            }
+            sharkintervle += 1;
+            if (sharkintervle == 10)
+            {
+                sharmovement();
+                sharkintervle = 0;
+            }
         }
         static void Draw()
         {
-            Console.SetCursorPosition(0, 0);
+            Console.SetCursorPosition(0,0);
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.WriteLine("                    ");
             Console.WriteLine("                    ");
@@ -113,9 +135,10 @@ namespace GameLoopExample
                 if (sharkv == verticalPos)
                 {
                     isPlaying = false;
+                    Console.BackgroundColor = ConsoleColor.Black;
                     Console.Clear();
                     Console.WriteLine("game over");
-                    Console.ReadKey();
+                    Console.ReadKey(true);
                 }
             }
             else
