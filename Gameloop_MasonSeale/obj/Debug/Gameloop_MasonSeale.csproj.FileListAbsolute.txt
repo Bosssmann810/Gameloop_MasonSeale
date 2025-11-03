@@ -1,0 +1,8 @@
+C:\mason unity\Gameloop_MasonSeale\Gameloop_MasonSeale\bin\Debug\Gameloop_MasonSeale.exe.config
+C:\mason unity\Gameloop_MasonSeale\Gameloop_MasonSeale\bin\Debug\Gameloop_MasonSeale.exe
+C:\mason unity\Gameloop_MasonSeale\Gameloop_MasonSeale\bin\Debug\Gameloop_MasonSeale.pdb
+C:\mason unity\Gameloop_MasonSeale\Gameloop_MasonSeale\obj\Debug\Gameloop_MasonSeale.csproj.AssemblyReference.cache
+C:\mason unity\Gameloop_MasonSeale\Gameloop_MasonSeale\obj\Debug\Gameloop_MasonSeale.csproj.CoreCompileInputs.cache
+C:\mason unity\Gameloop_MasonSeale\Gameloop_MasonSeale\obj\Debug\Gameloop_MasonSeale.exe
+C:\mason unity\Gameloop_MasonSeale\Gameloop_MasonSeale\obj\Debug\Gameloop_MasonSeale.pdb
+C:\mason unity\Gameloop_MasonSeale\Gameloop_MasonSeale\obj\Debug\Gameloop_MasonSeale.exe.config

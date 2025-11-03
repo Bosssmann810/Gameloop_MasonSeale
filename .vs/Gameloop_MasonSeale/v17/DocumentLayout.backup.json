@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\mason unity\\Gameloop_MasonSeale\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A410D894-A855-442B-B671-E0705DC7AF84}|Gameloop_MasonSeale\\Gameloop_MasonSeale.csproj|c:\\mason unity\\gameloop_masonseale\\gameloop_masonseale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A410D894-A855-442B-B671-E0705DC7AF84}|Gameloop_MasonSeale\\Gameloop_MasonSeale.csproj|solutionrelative:gameloop_masonseale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\mason unity\\Gameloop_MasonSeale\\Gameloop_MasonSeale\\Program.cs",
+              "RelativeDocumentMoniker": "Gameloop_MasonSeale\\Program.cs",
+              "ToolTip": "C:\\mason unity\\Gameloop_MasonSeale\\Gameloop_MasonSeale\\Program.cs",
+              "RelativeToolTip": "Gameloop_MasonSeale\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T13:10:03.33Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
